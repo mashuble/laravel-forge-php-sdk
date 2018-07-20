@@ -9,14 +9,14 @@ at [the official website](https://forge.laravel.com/user/profile#/api)
 
 #Download Project
 ```bash
-composer require mastashake08/laravel-forge-php-sdk
+composer require mashuble/laravel-forge-php-sdk
 ```
 
 #Usage
 Follow the conventions in the [API documentation](https://forge.laravel.com/api-documentation) , for example to list all servers
 ```php
-use Mastashake08\Forge\Server;
-use Mastashake08\Forge\Forge;
+use Forge\Server;
+use Forge\Forge;
 Forge::setApiKey($apiKey);
 $server = (new Server())->all();
 echo $server; // shows all servers in JSON Format
@@ -45,4 +45,4 @@ The following objects are available via the SDK
 This project is ongoing feel free to submit a pull request and help make this project better!
 
 #Questions
-Email all questions to jyrone.parker@gmail.com
+Email all questions to mashuble@gmail.com

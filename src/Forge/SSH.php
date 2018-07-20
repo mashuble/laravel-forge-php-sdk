@@ -1,5 +1,7 @@
 <?php
-namespace Mastashake08\Forge;
+
+namespace Forge;
+
 class SSH
 {
     use InteractsWithAPI;

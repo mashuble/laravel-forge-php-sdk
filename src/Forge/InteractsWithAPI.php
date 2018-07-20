@@ -1,6 +1,6 @@
 <?php
 
-namespace Mastashake08\Forge;
+namespace Forge;
 
 use GuzzleHttp\Client;
 
@@ -42,13 +42,13 @@ trait InteractsWithAPI
 
         $res = $this->_client->request($method, $url, [
             'headers' => [
-                'Authorization' => 'Bearer '.Forge::getApiKey(),
+                'Authorization' => 'Bearer ' . Forge::getApiKey(),
                 'Accept'        => 'application/json',
                 'Content-Type'  => 'application/json',
             ],
             'json' => $params,
         ]);
 
-        return $res->getBody();
+        return json_decode(strval($res->getBody()));
     }
 }

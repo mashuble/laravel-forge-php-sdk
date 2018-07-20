@@ -1,6 +1,6 @@
 <?php
 
-namespace Mastashake08\Forge\Error;
+namespace Forge\Error;
 
 use Exception;
 

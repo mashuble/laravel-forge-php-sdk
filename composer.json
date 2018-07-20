@@ -1,11 +1,11 @@
 {
-    "name": "mastashake08/laravel-forge-php-sdk",
+    "name": "mashuble/laravel-forge-php-sdk",
     "version": "1.0.0",
     "source": {
-                "url": "https://github.com/mastashake08/laravel-forge-php-sdk.git",
-                "type": "git",
-                "reference": "master"
-            },
+        "url": "https://github.com/mashuble/laravel-forge-php-sdk.git",
+        "type": "git",
+        "reference": "master"
+    },
     "description": "PHP SDK for accessing Laravel Forge API",
     "type": "library",
     "require": {
@@ -13,14 +13,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Mastashake08\\Forge\\": "src/Mastashake08/"
+            "Forge\\": "src/Forge/"
         }
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Jyrone Parker",
-            "email": "jyrone.parker@gmail.com"
+            "name": "Michael T.",
+            "email": "mashuble@gmail.com"
         }
     ]
 }

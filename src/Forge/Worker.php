@@ -1,5 +1,6 @@
 <?php
-namespace Mastashake08\Forge;
+
+namespace Forge;
 
 class Worker
 {
